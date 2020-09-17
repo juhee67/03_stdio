@@ -3,13 +3,13 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) {	
-	char c;
+int main(int argc, char *argv[]) {
+
+	int a, b;
+    printf("input two integers : ");
+    scanf("%d %d", &a, &b);
 	
-	printf("input an alphabet : ");
-	scanf("%c", &c);
-	
-	printf("input alphabet is %c (%d), and the next one is %c (%d)\n", c, c, c+1, c+1);
+	printf("result is %f\n", (float)a/b); 
 	
 	return 0;
 }
